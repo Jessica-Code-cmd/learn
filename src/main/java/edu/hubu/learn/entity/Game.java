@@ -4,7 +4,7 @@ import javax.persistence.*;
 import lombok.Data;
 
 @Entity
-@Table(name = "Game")
+@Table(name = "game")
 @Data
 public class Game {
 
@@ -15,4 +15,6 @@ public class Game {
     private String username;
 
     private String password;
+
+    private String email;
 }
