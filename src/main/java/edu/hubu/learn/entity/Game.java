@@ -17,4 +17,7 @@ public class Game {
     private String password;
 
     private String email;
+
+    @Column(name="avatar_url")
+    private String avatar;
 }
