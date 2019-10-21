@@ -37,7 +37,7 @@
             </div>
             <div class="form-group">
                 <label for="password">密码</label>
-                <input type="password" class="form-control" id="password" name="password" value="${game.username}" placeholder="请输入密码">
+                <input type="password" class="form-control" id="password" name="password" value="${game.password}" placeholder="请输入密码">
             </div>
             <button type="submit" class="btn btn-default">确认</button>
         </form>

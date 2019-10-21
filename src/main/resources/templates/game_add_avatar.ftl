@@ -22,13 +22,13 @@
     <div class="row">
       <div class="col-md-4">
         <ul class="nav nav-pills nav-stacked">
-          <li role="presentation"><a href="//game/list">列表</a></li>
-          <li role="presentation" class="active"><a href="//game/add">新增</a></li>
-          <li role="presentation"><a href="//game/search">搜索</a></li>
+          <li role="presentation"><a href="/game/list">列表</a></li>
+          <li role="presentation" class="active"><a href="/game/add">新增</a></li>
+          <li role="presentation"><a href="/game/search">搜索</a></li>
         </ul>
       </div>
       <div class="col-md-8">      
-        <form action="//game/do_add_avatar/${/game.id}" enctype="multipart/form-data" method="post">
+        <form action="/game/do_add_avatar/${game.id}" enctype="multipart/form-data" method="post">
             <div class="form-group">
                 <label for="avatar">头像图片</label>
                 <input type="file" class="form-control" id="avatar" name="avatar" placeholder="请选择图片">

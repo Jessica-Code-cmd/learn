@@ -30,12 +30,12 @@
       <div class="col-md-8">      
         <table class="table table-hover">
           <thead>
-          <th>用户名</th><th>密码</th><th>删除</th><th>修改</th><th>头像</th>
+          <th>用户名</th><th>密码</th><th>头像</th><th>删除</th><th>修改</th><th>头像</th>
           </thead>
           <tbody>
           <#list games as game>
           <tr>
-          <td>${game.username}</td><td>${game.password}</td>
+          <td>${game.username}</td><td>${game.password}</td><td>${game.avatar}</td>
           <td><a href="/game/delete/${game.id}">删除</a></td>
           <td><a href="/game/modify/${game.id}">修改</a></td>
           <td><a href="/game/add_avatar/${game.id}">上传</a></td>
